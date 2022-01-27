@@ -29,9 +29,9 @@ function handleSubmit() {
 
 function deleteFunction(o) {
     //no clue what to put here?
-    console.log(e)
+    //console.log(o)
 
     var p = o.parentNode.parentNode;
-    console.log(p)
+    //console.log(p)
     p.parentNode.removeChild(p);
 }
